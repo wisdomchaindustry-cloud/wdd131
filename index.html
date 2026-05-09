@@ -3,9 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD131</title>
+
+    <title>WDD 131 – Dynamic Web Fundamentals – Wisdom</title>
+
+    <meta
+      name="description"
+      content="WDD 131 – Dynamic Web Fundamentals course landing page by Wisdom. HTML, CSS, JavaScript, responsive design, and web development resources."
+    />
+
+    <meta name="author" content="Francis Ime" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/base.css" />
+
+    <script src="scripts/getdates.js" defer></script>
   </head>
+
   <body>
-    WDD131 Francis Ime
+    <header>
+      <span id="course-title"> WDD 131 – Dynamic Web Fundamentals </span>
+
+      <nav>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+
+        <a href="https://byupw.instructure.com/" target="_blank"> Canvas </a>
+
+        <a
+          href="https://www.churchofjesuschrist.org/study/scriptures"
+          target="_blank"
+        >
+          Scripture
+        </a>
+
+        <a href="#">Final Project</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Francis Ime</h1>
+
+      <section class="card">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+          <div class="text">
+            <p>
+              My name is Francis Ime. I am passionate about software
+              engineering, full development,and creating responsive web
+              applications. I enjoy learning modern web technologies and
+              building useful digital experiences.
+            </p>
+
+            <h3>Lagos, Nigeria</h3>
+
+            <div class="location">
+              <img src="images/nigeria.webp" alt="Nigeria flag" width="200" />
+
+              <p>
+                Nigeria is located in West Africa and is known for its rich
+                culture, technology growth, music industry, and energetic
+                cities. Lagos is one of Africa’s leading technology hubs.
+              </p>
+            </div>
+          </div>
+
+          <img
+            class="profile-image"
+            src="images/francis.webp"
+            alt="Profile image"
+            width="200"
+            height="200"
+          />
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Web Dev Resources</h2>
+
+        <ul>
+          <li>
+            <a href="https://developer.mozilla.org/" target="_blank">
+              MDN Web Docs
+            </a>
+          </li>
+
+          <li>
+            <a href="https://css-tricks.com/" target="_blank"> CSS Tricks </a>
+          </li>
+
+          <li>
+            <a href="https://www.freecodecamp.org/" target="_blank">
+              freeCodeCamp
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.w3schools.com/" target="_blank"> W3Schools </a>
+          </li>
+
+          <li>
+            <a href="https://codepen.io/" target="_blank"> CodePen </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy;
+        <span id="currentyear"></span>
+        🌸 Wisdom 🌸 Nigeria
+      </p>
+
+      <p id="lastModified"></p>
+    </footer>
   </body>
 </html>
