@@ -1,0 +1,85 @@
+:root{
+  --primary-color: #006b3f;
+  --secondary-color: #ffffff;
+  --accent-color: #f3f9f5;
+  --text-color: #111111;
+  --card-background: rgba(255,255,255,0.92);
+
+  --heading-font: "Roboto", sans-serif;
+  --body-font: "Roboto", sans-serif;
+
+  --shadow:
+    0 4px 12px rgba(0,0,0,0.15);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: var(--body-font);
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+header{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header h1{
+  font-size: 2rem;
+}
+
+.hero img{
+  width: 100%;
+}
+
+main{
+  position: relative;
+}
+
+.card{
+  background-color: var(--card-background);
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
+.card h2{
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+.details p{
+  margin-bottom: 0.75rem;
+}
+
+.weather-icon{
+  margin-bottom: 1rem;
+}
+
+footer{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p{
+  margin: 0.3rem 0;
+}

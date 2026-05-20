@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Explore Nigeria including weather, geography, culture, and population.">
+
+  <meta name="author" content="Wisdom">
+
+  <title>Country Page | Nigeria</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/place.css">
+  <link rel="stylesheet" href="styles/place-large.css">
+
+  <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Nigeria</h1>
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <picture>
+
+        <source
+          srcset="images/nigeria-large.webp"
+          media="(min-width: 768px)">
+
+        <img
+          src="images/nigeria-large.webp"
+          alt="Beautiful landscape view of Nigeria"
+          width="1200"
+          height="700"
+          loading="lazy">
+
+      </picture>
+
+    </section>
+
+    <section class="card data-card">
+
+      <h2>Data</h2>
+
+      <div class="details">
+
+        <p><strong>Area:</strong> 923,768 sq km</p>
+
+        <p><strong>Population:</strong> 223 Million</p>
+
+        <p><strong>Capital:</strong> Abuja</p>
+
+        <p><strong>Languages:</strong> English</p>
+
+        <p><strong>Currency:</strong> Naira</p>
+
+        <p><strong>Time Zone:</strong> UTC+1</p>
+
+      </div>
+
+    </section>
+
+    <section class="card weather-card">
+
+      <h2>Weather</h2>
+
+      <img
+        src="images/weather.svg"
+        alt="Cloudy weather icon"
+        class="weather-icon"
+        width="60"
+        height="60"
+        loading="lazy">
+
+      <div class="details">
+
+        <p>
+          <strong>Temperature:</strong>
+          <span id="temperature">8</span> °C
+        </p>
+
+        <p>
+          <strong>Conditions:</strong>
+          Cloudy
+        </p>
+
+        <p>
+          <strong>Wind:</strong>
+          <span id="wind-speed">10</span> km/h
+        </p>
+
+        <p>
+          <strong>Wind Chill:</strong>
+          <span id="windchill"></span>
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>
+      &copy;
+      <span id="currentyear"></span>
+      Francis Ime | Nigeria
+    </p>
+
+    <p id="lastModified"></p>
+
+  </footer>
+
+</body>
+</html>

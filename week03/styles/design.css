@@ -1,0 +1,66 @@
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1f3a93;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Banner (replaces marquee) */
+.banner {
+  background-color: #f39c12;
+  color: black;
+  text-align: center;
+  padding: 0.8rem;
+  font-weight: bold;
+}
+
+/* MAIN GRID LAYOUT */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Make h2 span both columns */
+main h2 {
+  grid-column: 1 / -1;
+  text-align: left; /* required fix */
+}
+
+/* Article and list styling */
+.article,
+.list {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* Callout section */
+.callout {
+  background-color: #0b2e59; /* improved contrast */
+  color: #ffffff;
+  padding: 20px; /* FIXED padding issue */
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Callout heading fix */
+.callout h2 {
+  text-align: left; /* required change */
+}
+
+/* Footer */
+footer {
+  text-align: left; /* move footer content left */
+  padding: 10px 20px;
+  background-color: #ddd;
+}
