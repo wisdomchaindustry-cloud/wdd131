@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.table-container {
+    width: 700px;
+}
+
+/* Heading */
+
+h1 {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+/* Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Caption */
+
+caption {
+    caption-side: bottom;
+    padding: 15px;
+    font-size: 1rem;
+    color: #444;
+}
+
+/* Header */
+
+thead th {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+    border: 1px solid #444;
+}
+
+thead th:first-child {
+    background-color: #000000;
+}
+
+/* Table Cells */
+
+tbody th,
+tbody td {
+    padding: 18px;
+    border: 1px solid #d1d5db;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Feature Column */
+
+tbody th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #f9fafb;
+}
+
+/* Zebra Striping */
+
+tbody tr:nth-child(even) {
+    background-color: #e5e7eb;
+}
+
+/* Icons */
+
+.check {
+    color: #4f46e5;
+    font-size: 2rem;
+}
+
+.cross {
+    color: #ef4444;
+    font-size: 2rem;
+}

@@ -1,0 +1,132 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #4b0082;
+  color: white;
+  padding: 1rem;
+}
+
+/* HEADER CONTAINER */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SITE TITLE */
+header h1 {
+  font-size: 1.5rem;
+}
+
+/* MENU BUTTON */
+#menu-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* NAVIGATION */
+.navigation {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.navigation.open {
+  display: flex;
+}
+
+.navigation li {
+  margin: 0.5rem 0;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #ffd700;
+}
+
+/* MAIN */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* PAGE TITLE */
+main h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4b0082;
+}
+
+/* GALLERY GRID */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* TEMPLE CARD */
+.gallery section {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* TEMPLE NAME */
+.gallery h3 {
+  color: #4b0082;
+  margin-bottom: 1rem;
+}
+
+/* TEMPLE DETAILS */
+.gallery p {
+  margin: 0.5rem 0;
+}
+
+/* TEMPLE IMAGE */
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}

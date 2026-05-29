@@ -1,0 +1,50 @@
+WDD131 PROJECT PROPOSAL 2026
+Subject
+WebCafe AI – An Intelligent Ed-Tech Platform for Personalized Learning, Skill Development, and Software Engineering Career Path Recommendation System
+Content
+WebCafe AI is a modern, interactive Ed-Tech platform designed to simulate an intelligent learning system that helps students understand their strengths, track progress, and receive personalized software engineering career recommendations.
+
+The platform is designed as a portfolio-grade frontend project that demonstrates real-world product thinking, UI/UX design, and JavaScript system design patterns.
+
+CORE FEATURES:
+- Career Path Recommendation Engine based on student performance scores
+- Interactive skill assessment quiz
+- Student progress dashboard with dynamic updates
+- Skill road-maps for software engineering paths
+- Resource recommendation system with filtering
+- Gamification system (badges, streaks, progress levels)
+- Dark mode and user professionalization (saved with local Storage)
+- Contact/feedback form
+
+RECOMMENDATION ENGINE LOGIC (SIMULATED AI):
+- Frontend Development: creativity + UI interest + moderate logic
+- Backend Development: strong logic + problem solving
+- Data Science / AI: mathematics + analytical thinking
+- Cybersecurity: high logic + attention to detail
+
+ENGINEERING & ARCHITECTURE CONCEPTS:
+- Modular JavaScript functions (separation of concerns)
+- Object-based student profiles
+- Array-based scoring and filtering systems
+- DOM manipulation with event-driven interactions
+- Template literals for all dynamic rendering
+- Persistent state using local Storage
+
+USER EXPERIENCE DESIGN:
+- Mobile-first responsive layout
+- Card-based UI system
+- Smooth navigation across multiple pages
+- Accessible semantic HTML structure
+- Optimized images with lazy loading
+
+DEPLOYMENT:
+- Hosted using GitHub Pages within wdd131 repository
+- Structured as a multi-page static web application
+Reason
+I chose this subject because I am preparing for a career in software engineering and want to build a strong portfolio aligned with remote job opportunities in top tech companies.
+
+This project goes beyond a basic website by simulating real-world product thinking and frontend system design. It demonstrates my ability to build interactive, responsive, and data-driven user interfaces using HTML, CSS, and JavaScript.
+
+It also aligns with modern industry trends such as personalized learning systems, AI-assisted recommendations, and interactive dashboards used in real educational technology platforms.
+
+My goal is to evolve this project into a professional-grade portfolio piece that can later be expanded into a full-stack application using React and Firebase.

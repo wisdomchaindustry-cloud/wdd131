@@ -1,0 +1,33 @@
+
+@media screen and (min-width: 768px) {
+
+  /* HIDE MENU BUTTON */
+  #menu-button {
+    display: none;
+  }
+
+  /* HEADER LAYOUT */
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* SHOW NAVIGATION */
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 0;
+  }
+
+  .navigation li {
+    margin: 0;
+  }
+
+  /* RESPONSIVE GALLERY */
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+}
