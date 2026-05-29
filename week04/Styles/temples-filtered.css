@@ -44,18 +44,22 @@ header h1 {
 }
 
 /* NAVIGATION */
-.navigation {
-  display: none;
+nav {
+  width: 100%;
 }
 
 /* FLEXBOX NAVIGATION */
 nav ul {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
   list-style: none;
+  gap: 1rem;
   margin-top: 1rem;
-  padding: 0;
+}
+
+/* HIDE MENU ON MOBILE */
+.navigation {
+  display: none;
 }
 
 /* SHOW MENU */
@@ -68,8 +72,10 @@ nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  transition: 0.3s ease;
 }
 
+/* HOVER EFFECT */
 nav a:hover {
   color: #ffd700;
 }
@@ -88,7 +94,7 @@ main h2 {
   color: #4b0082;
 }
 
-/* GALLERY */
+/* GALLERY GRID */
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -136,3 +142,45 @@ footer p {
   margin: 0.3rem 0;
 }
 
+/* MEDIA QUERY */
+@media screen and (min-width: 768px) {
+
+  /* HIDE MENU BUTTON */
+  #menu-button {
+    display: none;
+  }
+
+  /* HEADER LAYOUT */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* MOVE NAVIGATION TO RIGHT */
+  nav {
+    width: auto;
+    margin-left: auto;
+  }
+
+  /* DESKTOP NAVIGATION */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0;
+  }
+
+  /* SHOW NAVIGATION */
+  .navigation {
+    display: flex;
+  }
+
+  /* RESPONSIVE GALLERY */
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+}
