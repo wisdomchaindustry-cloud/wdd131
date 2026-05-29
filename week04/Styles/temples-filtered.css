@@ -26,6 +26,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* SITE TITLE */
@@ -45,27 +46,31 @@ header h1 {
 /* NAVIGATION */
 .navigation {
   display: none;
-  flex-direction: column;
-  list-style: none;
-  margin-top: 1rem;
 }
 
+/* FLEXBOX NAVIGATION */
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+/* SHOW MENU */
 .navigation.open {
   display: flex;
 }
 
-.navigation li {
-  margin: 0.5rem 0;
-}
-
-.navigation a {
+/* NAVIGATION LINKS */
+nav a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s ease;
 }
 
-.navigation a:hover {
+nav a:hover {
   color: #ffd700;
 }
 
@@ -83,7 +88,7 @@ main h2 {
   color: #4b0082;
 }
 
-/* GALLERY GRID */
+/* GALLERY */
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -99,7 +104,7 @@ main h2 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* TEMPLE NAME */
+/* TEMPLE TITLE */
 .gallery h3 {
   color: #4b0082;
   margin-bottom: 1rem;
@@ -130,3 +135,4 @@ footer {
 footer p {
   margin: 0.3rem 0;
 }
+

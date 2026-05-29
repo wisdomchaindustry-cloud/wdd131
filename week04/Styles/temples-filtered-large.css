@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 768px) {
 
-  /* HIDE MENU BUTTON */
+  /* HIDE MOBILE MENU BUTTON */
   #menu-button {
     display: none;
   }
@@ -13,16 +13,16 @@
     align-items: center;
   }
 
+  /* FLEXBOX NAVIGATION */
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
   /* SHOW NAVIGATION */
   .navigation {
     display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    margin-top: 0;
-  }
-
-  .navigation li {
-    margin: 0;
   }
 
   /* RESPONSIVE GALLERY */
@@ -31,3 +31,4 @@
   }
 
 }
+
