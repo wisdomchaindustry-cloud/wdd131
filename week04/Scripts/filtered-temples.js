@@ -1,159 +1,215 @@
 // TEMPLE DATA ARRAY
 const temples = [
-  {
-    templeName: "Aba Nigeria",
-    location: "Aba, Nigeria",
-    dedicated: "2005, August, 7",
-    area: 11500,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
-  },
+{
+templeName: "Aba Nigeria",
+location: "Aba, Nigeria",
+dedicated: "2005, August, 7",
+area: 11500,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+},
 
-  {
-    templeName: "Manti Utah",
-    location: "Manti, Utah, United States",
-    dedicated: "1888, May, 21",
-    area: 74792,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
-  },
+{
+templeName: "Manti Utah",
+location: "Manti, Utah, United States",
+dedicated: "1888, May, 21",
+area: 74792,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+},
 
-  {
-    templeName: "Payson Utah",
-    location: "Payson, Utah, United States",
-    dedicated: "2015, June, 7",
-    area: 96630,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
-  },
+{
+templeName: "Payson Utah",
+location: "Payson, Utah, United States",
+dedicated: "2015, June, 7",
+area: 96630,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+},
 
-  {
-    templeName: "Yigo Guam",
-    location: "Yigo, Guam",
-    dedicated: "2020, May, 2",
-    area: 6861,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
-  },
+{
+templeName: "Yigo Guam",
+location: "Yigo, Guam",
+dedicated: "2020, May, 2",
+area: 6861,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+},
 
-  {
-    templeName: "Washington D.C.",
-    location: "Kensington, Maryland, United States",
-    dedicated: "1974, November, 19",
-    area: 156558,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
-  },
+{
+templeName: "Washington D.C.",
+location: "Kensington, Maryland, United States",
+dedicated: "1974, November, 19",
+area: 156558,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+},
 
-  {
-    templeName: "Lima Perú",
-    location: "Lima, Perú",
-    dedicated: "1986, January, 10",
-    area: 9600,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
-  },
+{
+templeName: "Lima Perú",
+location: "Lima, Perú",
+dedicated: "1986, January, 10",
+area: 9600,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+},
 
-  {
-    templeName: "Mexico City Mexico",
-    location: "Mexico City, Mexico",
-    dedicated: "1983, December, 2",
-    area: 116642,
-    imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-  },
+{
+templeName: "Mexico City Mexico",
+location: "Mexico City, Mexico",
+dedicated: "1983, December, 2",
+area: 116642,
+imageUrl:
+"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+},
 
-  { templeName: "Rome Italy", location: "Rome, Italy", dedicated: "2019, March, 10", area: 41010, imageUrl: "images/rome.webp" }, 
-  { templeName: "Accra Ghana", location: "Accra, Ghana", dedicated: "2004, January, 11", area: 17500, imageUrl: "images/accra.webp" }, 
-  { templeName: "Lagos Nigeria", location: "Lagos, Nigeria", dedicated: "2025, May, 18", area: 19000, imageUrl: "images/lagos.webp" }
+{
+templeName: "Rome Italy",
+location: "Rome, Italy",
+dedicated: "2019, March, 10",
+area: 41010,
+imageUrl: "./images/rome.webp"
+},
+
+{
+templeName: "Accra Ghana",
+location: "Accra, Ghana",
+dedicated: "2004, January, 11",
+area: 17500,
+imageUrl: "./images/accra.webp"
+},
+
+{
+templeName: "Lagos Nigeria",
+location: "Lagos, Nigeria",
+dedicated: "2025, May, 18",
+area: 19000,
+imageUrl: "./images/lagos.webp"
+}
 ];
 
-// HAMBURGER MENU
+// DEBUG TEST
+console.log("JavaScript Loaded Successfully");
+
+// ELEMENT SELECTORS
 const menuButton = document.querySelector("#menu-button");
 
 const navigation = document.querySelector(".navigation");
 
+const gallery = document.querySelector(".gallery");
+
+const pageTitle = document.querySelector("#page-title");
+
+// HAMBURGER MENU
+if (menuButton && navigation) {
+
 menuButton.addEventListener("click", () => {
 
-  navigation.classList.toggle("open");
 
-  menuButton.textContent =
-    navigation.classList.contains("open") ? "✖" : "☰";
+navigation.classList.toggle("open");
+
+menuButton.textContent =
+  navigation.classList.contains("open") ? "✖" : "☰";
+
 
 });
 
-// GALLERY CONTAINER
-const gallery = document.querySelector(".gallery");
-
-// PAGE TITLE
-const pageTitle = document.querySelector("#page-title");
+}
 
 // DISPLAY TEMPLES FUNCTION
 const displayTemples = (templesList) => {
 
-  // CLEAR EXISTING CONTENT
-  gallery.innerHTML = "";
+// STOP IF GALLERY DOES NOT EXIST
+if (!gallery) return;
 
-  // LOOP THROUGH TEMPLES
-  templesList.forEach((temple) => {
+// CLEAR GALLERY
+gallery.innerHTML = "";
 
-    // CREATE CARD
-    const card = document.createElement("section");
+// LOOP THROUGH TEMPLES
+templesList.forEach((temple) => {
 
-    // CREATE ELEMENTS
-    const name = document.createElement("h3");
 
-    const location = document.createElement("p");
+// CREATE CARD
+const card = document.createElement("section");
 
-    const dedicated = document.createElement("p");
+// CREATE ELEMENTS
+const name = document.createElement("h3");
 
-    const area = document.createElement("p");
+const location = document.createElement("p");
 
-    const image = document.createElement("img");
+const dedicated = document.createElement("p");
 
-    // ADD TEXT CONTENT
-    name.textContent = temple.templeName;
+const area = document.createElement("p");
 
-    location.innerHTML =
-      `<strong>Location:</strong> ${temple.location}`;
+const image = document.createElement("img");
 
-    dedicated.innerHTML =
-      `<strong>Dedicated:</strong> ${temple.dedicated}`;
+// ADD CONTENT
+name.textContent = temple.templeName;
 
-    area.innerHTML =
-      `<strong>Size:</strong> ${temple.area.toLocaleString()} sq ft`;
+location.innerHTML =
+  `<strong>Location:</strong> ${temple.location}`;
 
-    // IMAGE ATTRIBUTES
-    image.src = temple.imageUrl;
+dedicated.innerHTML =
+  `<strong>Dedicated:</strong> ${temple.dedicated}`;
 
-    image.alt = temple.templeName;
+area.innerHTML =
+  `<strong>Size:</strong> ${temple.area.toLocaleString()} sq ft`;
 
-    image.loading = "lazy";
+// IMAGE SETTINGS
+image.src = temple.imageUrl;
 
-    image.width = 400;
+image.alt = temple.templeName;
 
-    image.height = 250;
+image.loading = "lazy";
 
-    // APPEND ELEMENTS TO CARD
-    card.appendChild(name);
+image.width = 400;
 
-    card.appendChild(location);
+image.height = 250;
 
-    card.appendChild(dedicated);
+// FALLBACK IMAGE
+image.onerror = () => {
 
-    card.appendChild(area);
+  image.src =
+    "https://via.placeholder.com/400x250?text=Temple+Image";
 
-    card.appendChild(image);
+};
 
-    // APPEND CARD TO GALLERY
-    gallery.appendChild(card);
+// APPEND TO CARD
+card.appendChild(name);
 
-  });
+card.appendChild(location);
+
+card.appendChild(dedicated);
+
+card.appendChild(area);
+
+card.appendChild(image);
+
+// APPEND CARD TO GALLERY
+gallery.appendChild(card);
+
+
+});
 
 };
 
 // DISPLAY ALL TEMPLES
 displayTemples(temples);
+
+// FILTER FUNCTION
+const filterTemples = (title, filteredTemples) => {
+
+if (pageTitle) {
+
+
+pageTitle.textContent = title;
+
+
+}
+
+displayTemples(filteredTemples);
+
+};
 
 // NAVIGATION LINKS
 const homeLink = document.querySelector("#home");
@@ -167,81 +223,119 @@ const largeLink = document.querySelector("#large");
 const smallLink = document.querySelector("#small");
 
 // HOME FILTER
-homeLink.addEventListener("click", () => {
+if (homeLink) {
 
-  pageTitle.textContent = "Home";
+homeLink.addEventListener("click", (event) => {
 
-  displayTemples(temples);
+
+event.preventDefault();
+
+filterTemples("Home", temples);
+
 
 });
+
+}
 
 // OLD FILTER
-oldLink.addEventListener("click", () => {
+if (oldLink) {
 
-  const oldTemples = temples.filter((temple) => {
+oldLink.addEventListener("click", (event) => {
 
-    return new Date(temple.dedicated).getFullYear() < 1900;
 
-  });
+event.preventDefault();
 
-  pageTitle.textContent = "Old Temples";
+const oldTemples = temples.filter((temple) => {
 
-  displayTemples(oldTemples);
+  return new Date(temple.dedicated).getFullYear() < 1900;
 
 });
+
+filterTemples("Old Temples", oldTemples);
+
+
+});
+
+}
 
 // NEW FILTER
-newLink.addEventListener("click", () => {
+if (newLink) {
 
-  const newTemples = temples.filter((temple) => {
+newLink.addEventListener("click", (event) => {
 
-    return new Date(temple.dedicated).getFullYear() > 2000;
 
-  });
+event.preventDefault();
 
-  pageTitle.textContent = "New Temples";
+const newTemples = temples.filter((temple) => {
 
-  displayTemples(newTemples);
+  return new Date(temple.dedicated).getFullYear() > 2000;
 
 });
+
+filterTemples("New Temples", newTemples);
+
+
+});
+
+}
 
 // LARGE FILTER
-largeLink.addEventListener("click", () => {
+if (largeLink) {
 
-  const largeTemples = temples.filter((temple) => {
+largeLink.addEventListener("click", (event) => {
 
-    return temple.area > 90000;
 
-  });
+event.preventDefault();
 
-  pageTitle.textContent = "Large Temples";
+const largeTemples = temples.filter((temple) => {
 
-  displayTemples(largeTemples);
+  return temple.area > 90000;
 
 });
+
+filterTemples("Large Temples", largeTemples);
+
+
+});
+
+}
 
 // SMALL FILTER
-smallLink.addEventListener("click", () => {
+if (smallLink) {
 
-  const smallTemples = temples.filter((temple) => {
+smallLink.addEventListener("click", (event) => {
 
-    return temple.area < 10000;
 
-  });
+event.preventDefault();
 
-  pageTitle.textContent = "Small Temples";
+const smallTemples = temples.filter((temple) => {
 
-  displayTemples(smallTemples);
+  return temple.area < 10000;
 
 });
 
-// FOOTER COPYRIGHT YEAR
+filterTemples("Small Temples", smallTemples);
+
+
+});
+
+}
+
+// FOOTER YEAR
 const currentYear = document.querySelector("#currentyear");
+
+if (currentYear) {
 
 currentYear.textContent = new Date().getFullYear();
 
-// LAST MODIFIED DATE
+}
+
+// LAST MODIFIED
 const lastModified = document.querySelector("#lastModified");
 
+if (lastModified) {
+
 lastModified.textContent =
-  `Last Modified: ${document.lastModified}`;
+`Last Modified: ${document.lastModified}`;
+
+}
