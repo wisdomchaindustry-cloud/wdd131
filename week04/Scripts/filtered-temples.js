@@ -65,7 +65,7 @@ const temples = [
 
   { templeName: "Rome Italy", location: "Rome, Italy", dedicated: "2019, March, 10", area: 41010, imageUrl: "images/rome.webp" }, 
   { templeName: "Accra Ghana", location: "Accra, Ghana", dedicated: "2004, January, 11", area: 17500, imageUrl: "images/accra.webp" }, 
-  { templeName: "Lagos Nigeria", location: "Lagos, Nigeria", dedicated: "2025, May, 18", area: 19000, imageUrl: "images/rome.webp" }
+  { templeName: "Lagos Nigeria", location: "Lagos, Nigeria", dedicated: "2025, May, 18", area: 19000, imageUrl: "images/" }
 ];
 
 // HAMBURGER MENU
