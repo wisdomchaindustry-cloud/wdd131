@@ -2,7 +2,8 @@ WDD131 PROJECT PROPOSAL 2026
 Subject
 WebCafe AI – An Intelligent Ed-Tech Platform for Personalized Learning, Skill Development, and Software Engineering Career Path Recommendation System
 Content
-WebCafe AI is a modern, interactive Ed-Tech platform designed to simulate an intelligent learning system that helps students understand their strengths, track progress, and receive personalized software engineering career recommendations.
+WebCafe AI is a modern, interactive Ed-Tech platform designed to simulate an intelligent learning system that helps students understand their strengths, 
+track progress, and receive personalized software engineering career recommendations.
 
 The platform is designed as a portfolio-grade frontend project that demonstrates real-world product thinking, UI/UX design, and JavaScript system design patterns.
 
