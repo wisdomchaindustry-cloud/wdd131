@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="View your personalized WebCafe AI career recommendation and learning roadmap.">
+
+  <meta
+    name="author"
+    content="Francis Ime">
+
+  <title>Dashboard | WebCafe AI</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="styles/style.css">
+
+  <link
+    rel="stylesheet"
+    href="styles/dashboard.css">
+
+  <link
+    rel="stylesheet"
+    href="styles/responsive.css">
+
+  <script
+    src="scripts/main.js"
+    defer></script>
+
+  <script
+    src="scripts/dashboard.js"
+    defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <nav class="navbar">
+
+      <a
+        href="index.html"
+        class="logo">
+        WebCafe AI
+      </a>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="assessment.html">
+            Assessment
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="dashboard.html"
+            class="active">
+            Dashboard
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+      <button
+        id="themeToggle"
+        class="theme-btn"
+        aria-label="Toggle dark mode">
+        🌙
+      </button>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="dashboard-hero">
+
+      <h1>
+        Your Career Dashboard
+      </h1>
+
+      <p>
+        Explore your personalized software engineering recommendation, strengths, and learning roadmap.
+      </p>
+
+    </section>
+
+    <section class="dashboard-section">
+
+      <div
+        id="dashboardContent"
+        class="dashboard-grid">
+
+        <div class="dashboard-card">
+
+          <h2>
+            Loading...
+          </h2>
+
+          <p>
+            Retrieving your assessment results.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="next-steps">
+
+      <div class="container">
+
+        <h2>
+          What Happens Next?
+        </h2>
+
+        <p>
+          Your personalized recommendation helps you identify the software engineering path that best matches your strengths and interests. Continue learning, improve your skills, and revisit the assessment anytime to explore other career options.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>
+      &copy;
+      <span id="currentYear"></span>
+      WebCafe AI
+    </p>
+
+    <p>
+      Personalized Learning & Career Guidance Platform
+    </p>
+
+    <a href="references.html">
+      References
+    </a>
+
+  </footer>
+
+</body>
+</html>

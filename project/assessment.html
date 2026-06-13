@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Complete the WebCafe AI assessment and discover your ideal software engineering career path.">
+
+  <meta
+    name="author"
+    content="Francis Ime">
+
+  <title>Assessment | WebCafe AI</title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link
+    rel="stylesheet"
+    href="styles/style.css">
+
+  <link
+    rel="stylesheet"
+    href="styles/responsive.css">
+
+  <script
+    src="scripts/main.js"
+    defer></script>
+
+  <script
+    src="scripts/assessment.js"
+    defer></script>
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <nav class="navbar">
+
+      <div class="logo">
+        WebCafe AI
+      </div>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="index.html">
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="assessment.html">
+            Assessment
+          </a>
+        </li>
+
+        <li>
+          <a href="dashboard.html">
+            Dashboard
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            Contact
+          </a>
+        </li>
+
+      </ul>
+
+      <button
+        id="themeToggle"
+        class="theme-btn">
+        🌙
+      </button>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section class="dashboard-hero">
+
+      <h1>
+        Career Assessment
+      </h1>
+
+      <p>
+        Answer a few questions about your interests and strengths. WebCafe AI will recommend the software engineering career path that best matches your profile.
+      </p>
+
+    </section>
+
+    <section class="assessment-section">
+
+      <form
+        id="assessmentForm"
+        class="assessment-form">
+
+        <div class="form-group">
+
+          <label for="name">
+            Full Name
+          </label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your full name">
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="logic">
+            Logical Thinking (1-5)
+          </label>
+
+          <select
+            id="logic"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="creativity">
+            Creativity (1-5)
+          </label>
+
+          <select
+            id="creativity"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="mathematics">
+            Mathematics (1-5)
+          </label>
+
+          <select
+            id="mathematics"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="problemSolving">
+            Problem Solving (1-5)
+          </label>
+
+          <select
+            id="problemSolving"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="attentionToDetail">
+            Attention To Detail (1-5)
+          </label>
+
+          <select
+            id="attentionToDetail"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="uiInterest">
+            UI / Design Interest (1-5)
+          </label>
+
+          <select
+            id="uiInterest"
+            required>
+
+            <option value="">
+              Select Score
+            </option>
+
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+          </select>
+
+        </div>
+
+        <button
+          type="submit"
+          class="btn primary-btn">
+          Get Recommendation
+        </button>
+
+      </form>
+
+    </section>
+
+    <section
+      id="resultContainer"
+      class="result-container">
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <p>
+      &copy;
+      <span id="currentYear"></span>
+      WebCafe AI
+    </p>
+
+    <p>
+      Personalized Learning & Career Guidance
+    </p>
+
+    <a href="references.html">
+      References
+    </a>
+
+  </footer>
+
+</body>
+</html>
